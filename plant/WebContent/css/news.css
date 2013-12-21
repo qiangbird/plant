@@ -1,0 +1,38 @@
+.news-header {
+	background-color: darkslategray;
+	color: white;
+}
+
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #B7F3C3;;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+	border-radius: 9px;
+}
+
+.table thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dddddd;
+	padding-left: 30px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+	padding-left: 42px;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.428571429;
+	vertical-align: top;
+	border-top: 1px solid #dddddd;
+	padding-left: 42px;
+}
+
+.temp-in-news {
+	height: 15px;
+}

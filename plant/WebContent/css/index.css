@@ -1,0 +1,135 @@
+﻿.nav {
+width: 588px;
+margin: auto;
+}
+
+.topImageSize {
+width: 1140px;
+height: 300px;
+}
+
+.well {
+margin-bottom: 0px;
+}
+
+#nav {
+  width: 1136px;
+  height: 135px;
+  padding-top: 50px;
+  margin: 0px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2),0 0 10px rgba(0,0,0,.1) inset;
+  background-color: #eeeeee;
+}
+#nav ul {
+  position: relative;
+  width: 1156px;
+  height: 40px;
+  line-height: 40px;
+  padding: 1px;
+  margin-left: -10px;
+  border-radius: 3px;
+  background-color: #26211a;
+}
+#nav ul:before,
+#nav ul:after {
+  display: inline-block;
+  position: absolute;
+  border-style: solid;
+  border-width: 6px;
+  z-index: -1;
+}
+#nav ul:before {
+  top: -10px;
+  left: 0px;
+  border-color: transparent #221712 #221712 transparent;
+}
+#nav ul:after {
+  top: -8px;
+  right: 0;
+  border-color: transparent transparent #221712 #221712;
+}
+#nav li {
+  float: left;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  text-align: center;
+  width: 104px;
+  margin-right: 1px;
+  box-shadow: 0 0 0 1px rgba(97,97,97,1) inset;
+  background-image: -webkit-linear-gradient(top,#4b4b4b,#262626);
+  background-image: -moz-linear-gradient(top,#4b4b4b,#262626);
+  background-image: -o-linear-gradient(top,#4b4b4b,#262626);
+  background-image: -ms-linear-gradient(top,#4b4b4b,#262626);
+  background-image: linear-gradient(top,#4b4b4b,#262626);
+}
+#nav li:first-child {
+  position: relative;
+  width: 261px;
+  border-radius: 3px 0 0 3px;
+}
+#nav li:first-child:after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -10px;
+  display: block;
+  font-family: 'icomoon';
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  content: "\22";
+  color: #121212;
+  text-shadow: 0 -1px 0 #0e0e0e,0 1px 0 #3a3a3a;
+  font-size: 16px;
+}
+#nav li:last-child {
+  width: 262px;
+  margin-right: 0;
+  border-radius: 0 3px 3px 0;
+}
+#nav li a {
+  color: #fff;
+  display: block;
+}
+#nav li a:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 1px rgba(200,125,25,1) inset;
+  background-image: -webkit-linear-gradient(top,#a65a12,#7e3106);
+  background-image: -moz-linear-gradient(top,#a65a12,#7e3106);
+  background-image: -o-linear-gradient(top,#a65a12,#7e3106);
+  background-image: -ms-linear-gradient(top,#a65a12,#7e3106);
+  background-image: linear-gradient(top,#a65a12,#7e3106);
+}
+#nav li a:active,
+#nav li a.active {
+  color: #e6c35c;
+  box-shadow: 0 0 0 1px rgba(92,92,92,.8) inset;
+  background-image: -webkit-linear-gradient(top,#070707,#252525);
+  background-image: -moz-linear-gradient(top,#070707,#252525);
+  background-image: -o-linear-gradient(top,#070707,#252525);
+  background-image: -ms-linear-gradient(top,#070707,#252525);
+  background-image: linear-gradient(top,#070707,#252525);
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot');
+  src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+ 	url('fonts/icomoon.svg#icomoon') format('svg'),
+	url('fonts/icomoon.woff') format('woff'),
+	url('fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.copyright {
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	font-family: arial;
+	font-size: 13pt;
+}
+
+.temp {
+	height: 256px
+}

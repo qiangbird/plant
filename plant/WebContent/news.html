@@ -1,0 +1,76 @@
+﻿
+<div class="container">
+
+	<div id="left" >
+    
+    <div class="modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">新闻动态</h4>
+      </div>
+      <div class="modal-body">
+      	<ul class="news">
+      	
+      		<li ng-repeat="news in news">
+			<a>{{news.title}}</a>  {{news.date}}<br>
+			</li>
+		</ul>
+      </div>
+    </div><!-- /.modal-content -->
+    
+    <div class="modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">新闻动态</h4>
+      </div>
+      <div class="modal-body">
+      	<ul class="news">
+      	
+      		<li ng-repeat="news in news">
+			<a>{{news.title}}</a>  {{news.date}}<br>
+			</li>
+		</ul>
+      </div>
+    </div><!-- /.modal-content -->
+    
+    <div class="modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">联系我们</h4>
+      </div>
+      <div class="modal-body">
+			{{contactUs.companyName}}<br>
+			通讯地址：{{contactUs.address}}<br>
+			移动电话：{{contactUs.telephone}}<br>
+			联 系 人：{{contactUs.contact}}<br>
+      </div>
+    </div><!-- /.modal-content -->
+	</div>
+	
+	<div class="col-md-8 modal-content">
+		<div class="modal-header">
+			<h4 class="modal-title">新闻中心</h4>
+		</div>
+		<div class="modal-body">
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr class="news-header">
+						<th class="col-md-6">新闻标题</th>
+						<th>发布时间</th>
+						<th>浏览次数</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="1 in [1,2,3,4,5,6,7,8,9,10,11,12]">
+						<td><a>标题{{$index + 1}}</a></td>
+						<td>时间{{$index + 1}}</td>
+						<td>次数{{$index + 1}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<div class="temp-in-news">
+			<span></span>
+		</div>
+	</div>
+	
+	
+</div>

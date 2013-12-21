@@ -1,0 +1,116 @@
+﻿test: <a href="#/contactUs/{{}}">contactUs</a>
+<div class="container">
+
+	<div class="col-md-4 modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">新闻动态</h4>
+      </div>
+      <div class="modal-body">
+      	<ul class="news">
+      	
+      		<li ng-repeat="news in news">
+			<a>{{news.title}}</a>  {{news.date}}<br>
+			</li>
+		</ul>
+      </div>
+    </div><!-- /.modal-content -->
+	
+    <div class="col-md-4 modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">公司简介</h4>
+      </div>
+      <div class="modal-body">
+        {{companyIntroduce.content}}<br>
+      </div>
+    </div><!-- /.modal-content -->
+	
+	<div class="col-md-4 modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">联系我们</h4>
+      </div>
+      <div class="modal-body">
+        
+			{{contactUs.companyName}}<br>
+			通讯地址：{{contactUs.address}}<br>
+			移动电话：{{contactUs.telephone}}<br>
+			联 系 人：{{contactUs.contact}}<br>
+			<br>
+			<br>
+      </div>
+    </div><!-- /.modal-content -->
+	
+</div>
+
+<div class="container">
+
+	
+     <div class="modal-content">
+      <div class="modal-header">        
+        <h4 class="modal-title">产品展示</h4>
+      </div>
+      <div class="modal-body">
+	  
+		<div class="row">
+		
+		  <div class="col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test13.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test1.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test11.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test10.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test9.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test8.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test7.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		  <div class="col-sm-6 col-md-3">
+			<a href="#" class="thumbnail">
+			  <img data-src="holder.js/100%x180" src="images/test6.jpg" style="width: 242px;height: 150px;" alt="...">
+			</a>
+		  </div>
+		  
+		</div>
+		
+	 </div>
+    </div><!-- /.modal-content -->
+
+	  
+</div>
+
+ <div class="tab-content container">
+  <div class="tab-pane active" id="home">This is home!</div>
+  <div class="tab-pane" id="profile">This is profile</div>
+  <div class="tab-pane" id="messages">This is messages</div>
+  <div class="tab-pane" id="settings">This is settings</div>
+</div>

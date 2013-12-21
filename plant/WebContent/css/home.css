@@ -1,0 +1,20 @@
+﻿.displayImageSize {
+width: 242px;
+height: 150px;
+}
+
+.news {
+	margin-left: -24px;
+	margin-bottom: 0px;
+}
+
+a:HOVER {
+	cursor: pointer;
+}
+
+#left {
+	width: 33.33333333333333%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+}

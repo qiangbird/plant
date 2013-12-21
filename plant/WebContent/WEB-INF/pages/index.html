@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" ng-app="plantApp">
+<head>
+<meta charset=utf-8 />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content>
+<meta name="author" content>
+<script src="js/vendor/jquery-1.10.2.js"></script>
+<script src="js/vendor/angular.js"></script>
+<script src="js/vendor/angular-resource.js"></script>
+<script src="js/vendor/angular-route.js"></script>
+<script src="js/vendor/angular-touch.js"></script>
+
+<link href="css/vendor/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="js/vendor/bootstrap.js"></script>
+
+<!-- <script src="js/vendor/bootstrap-tab.js"></script> -->
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+<script src="js/app/app.js"></script>
+<script src="js/controllers/controllers.js"></script>
+<script src="js/services/services.js"></script>
+<!-- <script src="js/directives/directives.js"></script> -->
+
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/zzsc.css" media="all" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/leaveWords.css" />
+<link rel="stylesheet" href="css/news.css" />
+
+<link href="css/display/font-awesome.css" rel="stylesheet">
+<link href="css/display/fancybox.css" rel="stylesheet" />
+<link href="css/display/styles.css" rel="stylesheet">
+
+<script src="js/index.js"></script>
+<script src="js/jquery.scrollToTop.min.js"></script>
+<script src="js/display/jquery.fancybox.pack.js"></script>
+<script src="js/display/display.js"></script>
+</head>
+<body>
+<a href="#top" id="toTop"></a>
+<script defer src="http://jquery-weather.julying.com/v3/jquery.weather.build.min.js?parentbox=body&moveArea=all&zIndex=1&move=1&drag=1&autoDrop=1&styleSize=big&style=cartoon-1&area=client"></script>
+<!--------------------------导航栏---------------------------->
+<div class="page">
+	<header id="header">
+		<hgrounp class="white blank">
+			<h1></h1>
+			<h2><h2>
+		</hgrounp>
+	</header>
+	<section class="demo">
+<nav id="nav">
+	<ul class="clearfix">
+		<li>　</li>
+		<li><a id="Home" href="#" class="active">首页</a></li>
+		<li><a id="Introduce" href="#">公司简介</a></li>
+		<li><a id="News" href="#/news">新闻动态</a></li>
+		<li><a id="Display" href="#/display">苗木展示</a></li>
+		<li><a id="Words" href="#/leavewords">在线留言</a></li>
+		<li><a id="Contact" href="#/contactUs">联系我们</a></li>
+		<li>　</li>
+	</ul>
+</nav>
+	</section>
+</div>
+<!-- </div> -->
+<!--------------------------导航栏---------------------------->
+
+<!--------------------------幻灯片----------------------------> 
+ <div class="container">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+  
+    <div class="item active">
+      <img src="images/test9.jpg" style="width:1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+		<p>First First First First <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test10.jpg" style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+		<p>Second Second Second Second <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test11.jpg" style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+		<p>Third Third Third Third <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test12.jpg" style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Fourth slide label</h3>
+		<p>Fourth Fourth Fourth Fourth <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test13.jpg" style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+		<p>Second Second Second Second <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test11.jpg"  style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+		<p>Third Third Third Third <p>
+      </div>
+    </div>
+	
+	<div class="item">
+      <img src="images/test12.jpg" style="width: 1140px;height: 300px;">
+      <div class="carousel-caption">
+        <h3>Fourth slide label</h3>
+		<p>Fourth Fourth Fourth Fourth <p>
+      </div>
+    </div>
+	
+  </div>
+
+  <!-- Controls -->
+<!--   <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a> -->
+</div>
+</div>
+<!--------------------------幻灯片---------------------------->
+
+<div class="view-container">
+   <div ng-view class="view-frame"></div>
+</div>
+
+<div class="container">
+<div class="col-md-12 modal-content">
+	<div class="copyright">
+		copyright john li 
+	</div>
+</div><!-- /.modal-content -->
+</div>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=6&amp;pos=left&amp;uid=6858037" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":179};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+
+</body>
+</html>
+
