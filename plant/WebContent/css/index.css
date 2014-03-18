@@ -1,4 +1,4 @@
-﻿.nav {
+.nav {
 width: 588px;
 margin: auto;
 }
@@ -115,21 +115,21 @@ margin-bottom: 0px;
   font-family: 'icomoon';
   src:url('fonts/icomoon.eot');
   src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
- 	url('fonts/icomoon.svg#icomoon') format('svg'),
-	url('fonts/icomoon.woff') format('woff'),
-	url('fonts/icomoon.ttf') format('truetype');
+         url('fonts/icomoon.svg#icomoon') format('svg'),
+        url('fonts/icomoon.woff') format('woff'),
+        url('fonts/icomoon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 .copyright {
-	position: relative;
-	padding: 20px;
-	text-align: center;
-	font-family: arial;
-	font-size: 13pt;
+        position: relative;
+        padding: 20px;
+        text-align: center;
+        font-family: arial;
+        font-size: 13pt;
 }
 
 .temp {
-	height: 256px
+        height: 256px
 }

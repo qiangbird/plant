@@ -133,28 +133,28 @@ footer {
 
 
 .tab-background {
-	width: 71px;
-	height: 59px;
-	background-color: rgb(34, 33, 33);
-	font: message-box;
-	color: whitesmoke;
-	margin-bottom: 1px;
-	padding-top: 19px;
-	padding-left: 8px;
-	font-size: 21px;
+        width: 71px;
+        height: 59px;
+        background-color: rgb(34, 33, 33);
+        font: message-box;
+        color: whitesmoke;
+        margin-bottom: 1px;
+        padding-top: 19px;
+        padding-left: 8px;
+        font-size: 21px;
 }
 
 .tab-background:HOVER {
-	cursor: pointer;
-	background-color: rgb(46, 27, 180);
+        cursor: pointer;
+        background-color: rgb(46, 27, 180);
 }
 
 .font-style {
-	padding-bottom: 0px;
+        padding-bottom: 0px;
 }
 
 #right-tabs {
-	margin-top: 88px;
-	position: absolute;
-	margin-left: 33px;
+        margin-top: 88px;
+        position: absolute;
+        margin-left: 33px;
 }

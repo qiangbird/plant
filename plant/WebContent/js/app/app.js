@@ -1,23 +1,23 @@
-﻿'use strict';
+'use strict';
 
 /* App Module */
 /*angular.module('plantApp', ['ngRoute', 'ngAnimate','plantControllers','plantServices'],
-		  function($routeProvider, $locationProvider) {
-			 $routeProvider.when('/home', {
-		      templateUrl: 'home.html',
-		      controller: 'HomeCtrl'
-		    });
-		    $routeProvider.when('/contactUs', {
-		      templateUrl: 'contactUs.html',
-		      controller: 'ContactUsCtrl'
-		    }).otherwise({
-		        redirectTo: '/home'
-		      });;
-		    
-		    // configure html5 to get links working on jsfiddle
-		    $locationProvider.html5Mode(true);
+                  function($routeProvider, $locationProvider) {
+                         $routeProvider.when('/home', {
+                      templateUrl: 'home.html',
+                      controller: 'HomeCtrl'
+                    });
+                    $routeProvider.when('/contactUs', {
+                      templateUrl: 'contactUs.html',
+                      controller: 'ContactUsCtrl'
+                    }).otherwise({
+                        redirectTo: '/home'
+                      });;
+                    
+                    // configure html5 to get links working on jsfiddle
+                    $locationProvider.html5Mode(true);
 });*/
-		    
+                    
 var plantApp = angular.module('plantApp', [
   'ngRoute',
   'ngTouch',
@@ -59,4 +59,3 @@ plantApp.config(['$routeProvider',
     // configure html5 to get links working on jsfiddle
 //    $locationProvider.html5Mode(true);
   }]);
-

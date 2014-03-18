@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 /* Controllers */
 
@@ -13,8 +13,8 @@ plantControllers.controller('HomeCtrl', ['$scope', 'Plant',
 
 plantControllers.controller('ContactUsCtrl', ['$scope', 'Plant',
    function($scope,Plant) {
-	$scope.news = Plant.query({requestId: 'news'});
-	$scope.contactUs = Plant.get({requestId: 'contactUs'});
+        $scope.news = Plant.query({requestId: 'news'});
+        $scope.contactUs = Plant.get({requestId: 'contactUs'});
    }]);
 
 plantControllers.controller('LeaveWordsCtrl', ['$scope', 'Plant',
@@ -37,29 +37,29 @@ plantControllers.controller('NewsCtrl', ['$scope', 'Plant',
 
 /*plantControllers.controller('smallNavigation', ['$scope',
    function($scope) {
-	
-	 $scope.home = function(){
-		 $("#Home").click();
+        
+         $scope.home = function(){
+                 $("#Home").click();
      }
-	 
-	 $scope.introduce = function(){
-		 $("#Introduce").click();
+         
+         $scope.introduce = function(){
+                 $("#Introduce").click();
      }
-	 
-	 $scope.news = function(){
-		 $("#News").click();
+         
+         $scope.news = function(){
+                 $("#News").click();
      }
-	 
-	 $scope.display = function(){
-		 $("#Display").click();
+         
+         $scope.display = function(){
+                 $("#Display").click();
      }
-	 
-	 $scope.words = function(){
-		 $("#Words").click();
+         
+         $scope.words = function(){
+                 $("#Words").click();
      }
-	 
-	 $scope.contact = function(){
-		 $("#Contact").click();
+         
+         $scope.contact = function(){
+                 $("#Contact").click();
      }
     
    }]);*/
